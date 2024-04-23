@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    
+}
+
+header{
+    top: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    background-color: rgb(22,7,39);
+    padding: 0 20px;
+    width: 100%;
+    z-index: 1;
+}
+
+header a{
+    color: white;
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+header img{
+    position: absolute;
+    left: 40px;
+}
+
+main .banner{
+    background-image: url(abstrato\ azul.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    text-align: center;
+    height: 500px;
+}
+
+main .banner img{
+    display: inline-block;
+}
+
+main .bannerTxt{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 7%;
+}
+
+main .bannerTxt h1{
+    color: white;
+    font-size: 50px;
+    font-family: "Exo";
+}
+
+main .introducao{
+    text-align: center;
+    margin-bottom: 100px; 
+}
+
+main .introducao h2{
+    font-family: "Roboto Slab";
+    font-size: 32px;
+    margin-bottom: 80px;
+}
+
+main .introducao p{
+    font-family: arial;
+    font-size: 20px;
+}
+
+main .estrutura{
+    margin-bottom: 100px;
+}
+
+main .estrutura h2{
+    font-family: "Roboto Slab";
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px; 
+}
+
+main .estrutura .beneficio{
+    display: inline-block;
+    width: 450px;
+    margin: 0 26.5px;
+    text-align: center;
+    vertical-align: top;
+}
+
+main .estrutura .beneficio h4{
+    color: red;
+    font-family: "Roboto Slab";
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+main .estrutura .beneficio p{
+    font-size: 20px;
+    font-family: arial;
+}
+
+main section{
+    display: flex;
+    justify-content: center;
+}
+
+main section .container{
+    font-family: arial;
+    background-color: rgb(10, 191, 204);
+    display: inline-block;
+    height: 430px;
+    width: 280px;
+    margin: 0 30px;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 1px 0 rgba(0,0,0,0.5);
+    padding: 0 15px;
+    position: relative;
+}
+
+main section .container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main section .container p3{
+    position: absolute;
+    top: 260px;
+    left: 5px;
+    width: 95%;
+    padding: 0 20;
+}
+
+main h3{
+    padding-top: 85px;
+    font-size: 32px;
+    font-family: "Roboto slab";
+    text-align: center;
+}
+
+main section2 details{
+    font-size: 20px;
+    width: 60%;
+    position: relative;
+    left: 50%;
+    translate: -50%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+
+main section2 details:last-child{
+    margin-bottom: 80px;
+}
+
+main section2 details summary{
+    color: red;
+    font-family: "Roboto Slab";
+    padding: 2%;
+    border-bottom: 2.5px solid black;
+}
+
+main section2 details p4{
+    color: white;
+    background-color: black;
+    font-family: arial;
+    padding: 2%;
+    width: 100%;
+    display: inline-block;
+}

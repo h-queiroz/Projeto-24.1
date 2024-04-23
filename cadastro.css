@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    
+}
+
+header{
+    top: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    background-color: rgb(22,7,39);
+    padding: 0 20px;
+    width: 100%;
+    z-index: 1;
+}
+
+header a{
+    color: white;
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+header img{
+    position: absolute;
+    left: 40px;
+}
+
+main form{
+    padding-top: 300px;
+    width: 10%;
+    position: relative;
+    left: 50%;
+    translate: -50%;
+}
+
+main form input{
+    display: block;
+    padding: 2%;
+}
