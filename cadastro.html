@@ -19,12 +19,111 @@
       <a href="">Sobre Nós</a>
    </header>
       <main>
+         <div class="mensagem">
+            <h2>Cadastre-se</h2>
+            <p>
+               Para fazer seu cadastro, preencha todas as lacunas abaixo com seus dados pessoais:
+            </p>
+         </div>
          <form>
-            <input type="nome">
-            <input type="cpf">
-            <input type="email">
-            <input type="password">
+            <tr>
+               <th class="nomes">
+               <label for="hnome" class="nome_label">
+                  Nome:*
+               </label>
+               </th>
+            <input id="nome_cad" required="required" type="nome" placeholder="Insira seu Nome">
+
+               <th class="nomes">
+               <label for="hcpf" class="cpf_label">
+                  CPF:*
+               </label>
+               </th>
+            <input id="cpf_cad" required="required" type="cpf" placeholder="Insira seu CPF">
+
+               <th class="nomes">
+               <label for="hemail" class="email_label">
+                  Email:*
+               </label>
+               </th>
+            <input id="email_cad" required="required" type="email" placeholder="Email">
+
+               <th class="nomes">
+               <label for="hpassword" class="password_label">
+                  Senha:*
+               </label>
+               </th>
+            <input id="senha_cad" required="required" type="password" placeholder="Senha">
+
+            </tr>
+
+               <label for="hbirthday" class="birthday_label">
+                  Data Nascimento:
+               </label>
+            <select name="dia_aniversario" required id="id_dia_aniversario" data-listener-count-change="2" data-listener-count-input="1">
+               <option value selected>dd</option>
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10</option>
+               <option value="11">11</option>
+               <option value="12">12</option>
+               <option value="13">13</option>
+               <option value="14">14</option>
+               <option value="15">15</option>
+               <option value="16">16</option>
+               <option value="17">17</option>
+               <option value="18">18</option>
+               <option value="19">19</option>
+               <option value="20">20</option>
+               <option value="21">21</option>
+               <option value="22">22</option>
+               <option value="23">23</option>
+               <option value="24">24</option>
+               <option value="25">25</option>
+               <option value="26">26</option>
+               <option value="27">27</option>
+               <option value="28">28</option>
+               <option value="29">29</option>
+               <option value="30">30</option>
+               <option value="31">31</option>
+            </select>
+
+            <select name="mes_aniversario" required id="id_mes_aniversario" data-listener-count-change="2" data-listener-count-input="1">
+               <option value selected>mmm</option>
+               <option value="1">Janeiro</option>
+               <option value="2">Fevereiro</option>
+               <option value="3">Março</option>
+               <option value="4">Abril</option>
+               <option value="5">Maio</option>
+               <option value="6">Junho</option>
+               <option value="7">Julho</option>
+               <option value="8">Agosto</option>
+               <option value="9">Setembro</option>
+               <option value="10">Outubro</option>
+               <option value="11">Novembro</option>
+               <option value="12">Dezembro</option>
+            </select>
+
+            <select name="ano_aniversario" required id="id_ano_aniversario" data-listener-count-change="2" data-listener-count-input="1">
+               <option value selected>aaaa</option>
+               <option value="2008">2008</option>
+               <option value="2007">2007</option>
+               <option value="2006">2006</option>
+               <option value="2005">2005</option>
+               <option value="2004">2004</option>
+            </select>
+
+            <input type="button" value="Cadastrar" class="BotaoCadastro">
          </form>
+
+         
          
       </main>
 </body>
