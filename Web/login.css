@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+
+}
+
+header{
+    top: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    background-color: rgb(22,7,39);
+    padding: 0 20px;
+    width: 100%;
+    z-index: 1;
+}
+
+header a{
+    color: white;
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+header img{
+    position: absolute;
+    left: 40px;
+}
+
+main .mensagem{
+    text-align: center;
+}
+
+main .mensagem h2{
+    padding-top: 100px;
+    font-family: "Roboto Slab";
+    font-size: 32px;
+}
+
+main .mensagem p{
+    font-family: "Exo";
+    font-size: 20px;
+}
+
+main form{
+    background-color: rgb(2, 64, 158);
+    width: 18%;
+    position: relative;
+    left: 50%;
+    translate: -50%;
+    display: table;
+    text-indent: initial;
+    border-color: black;
+    border-collapse: separate;
+    border-spacing: 15px;
+    border-style: solid;
+    border-radius: 5px;
+    unicode-bidi: isolate;
+    padding: 2px 20px;
+}
+
+main form input{
+    background-color: rgb(218, 221, 227) ;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+main form select{
+    background-color: rgb(218, 221, 227);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+main form .BotaoCadastro{
+    background-color: rgb(218, 221, 227);
+    margin: 40px 50px 40px 58px;
+    width: 175px;
+    height: 40px;
+    font-family: "Roboto Slab";
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0.1px 1.5px 1px;
+}
+
+main .BotaoCadastro:hover{
+    transform: scale(1.02);
+}
