@@ -34,7 +34,7 @@ header img{
 }
 
 main .banner{
-    background-image: url(abstrato\ azul.jpg);
+    background-image: url("assets/abstrato azul.jpg");
     background-size: cover;
     padding-top: 100px;
     text-align: center;
