@@ -4,7 +4,10 @@
 
 body{
     margin: 0;
+}
 
+main .fotinha{
+    background-image: url("assets/polignomio.jpg");
 }
 
 header{
