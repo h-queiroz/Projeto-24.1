@@ -4,8 +4,19 @@
 
 body{
     margin: 0;
+    /* Provavelmente é isso que você quer fazer
+    *  Pode remover e alterar a vontade, apenas deixei aqui pra você visualizar
+    */
+    background-image: url("assets/poli2.jpg");
+    background-size: cover;
 }
 
+/* Lembre de usar o F12 pra ver onde está a sua tag e usar:
+ * position: absolute;
+ * top: 10px;
+ * left: 100px;
+ * para mover a sua tag e ver onde ela está atualmente.
+ */
 main .fotinha{
     background-image: url("assets/polignomio.jpg");
 }
