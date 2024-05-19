@@ -4,8 +4,14 @@
 
 body{
     margin: 0;
-    
+
+    background-image: url("assets/poli2.jpg");
+    background-size: cover;
 }
+main .fotinha{
+    background-image: url("assets/polignomio.jpg");
+}
+
 
 header{
     top: 0;

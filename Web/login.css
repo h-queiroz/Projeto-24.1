@@ -5,7 +5,7 @@
 body{
     margin: 0;
     /* Provavelmente é isso que você quer fazer
-    *  Pode remover e alterar a vontade, apenas deixei aqui pra você visualizar
+    *  Pode remover e alterar a vontade, apenas deixei aqui pra você visualizar 'OK OK Thank you'
     */
     background-image: url("assets/poli2.jpg");
     background-size: cover;
@@ -15,7 +15,7 @@ body{
  * position: absolute;
  * top: 10px;
  * left: 100px;
- * para mover a sua tag e ver onde ela está atualmente.
+ * para mover a sua tag e ver onde ela está atualmente. 'Pode Deixar'
  */
 main .fotinha{
     background-image: url("assets/polignomio.jpg");
