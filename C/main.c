@@ -20,7 +20,7 @@ for(;;){
   if(strcmp(senha, senha1) == 0 && strcmp(nome, nome1) == 0){
   	system("clear");
     printf("Conectado com sucesso!");
-    printf("\nSeja bem-vindo\n\n");
+    printf("\nSeja bem-vindo %s\n\n", nome1);
 
     for(;;){
       int opc, i;
@@ -29,7 +29,8 @@ for(;;){
       printf("\n1-Trocar de Nome");
       printf("\n2-Trocar senha");
       printf("\n3-Mostrar login");
-      printf("\n4-Sair");
+      printf("\n4-Gerar Boleto");
+      printf("\n5-Sair");
       printf("\n*------------------*\n\n");
       printf("Selecione a opção: ");
       scanf("%d",&opc);
@@ -45,7 +46,7 @@ for(;;){
         case 2:
           printf("Digite sua nova senha: ");
           scanf ("%s",senha);
-		  printf("Nome alterado com sucesso\n");
+		  printf("Senha alterada com sucesso\n");
 		  sleep(2);
           system("clear");
         break;
@@ -56,10 +57,23 @@ for(;;){
 		  printf("Senha: ");
 		  puts(senha);
 		  sleep(3);
+		  system("clear");
+		break;
+
+        /* case 4:
+	  	  printf("\n Segunda Terça\t Quarta\t Quinta\t Sexta\t Sábado\t Domingo\n");
+		  sleep(3);
+          system("clear");
+		break; */
+
+        case 4:
+		  printf("Boleto Gerado, clique no link abaixo para conferir\n");
+		  printf("https://t.ly/w8ZM2\n");
+		  sleep(3);
           system("clear");
 		break;
 
-        case 4:
+        case 5:
           printf("Obrigado!!\n");
           return 0;
         break;
@@ -73,10 +87,8 @@ for(;;){
 
     }else{
         printf("Nome ou Senha errada!\n");
+	    sleep(2);
         system("clear");
-
-
-
     }
 }
     return 0;
